@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace T2009M_AP.session1
 {
-    public class Lab1
+    public class Product
     {
         public int id;
         public string name;
@@ -13,12 +13,12 @@ namespace T2009M_AP.session1
         public string description;
         public List<string>gallery  ;
 
-        public Lab1()
+        public Product()
         {
             gallery = new List<string>();
         }
 
-        public Lab1(int id, string name, decimal price, int qty, string image, string description)
+        public Product(int id, string name, decimal price, int qty, string image, string description)
         {
             this.id = id;
             this.name = name;
